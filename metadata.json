@@ -1,0 +1,6 @@
+{
+  "name": "AI PDF Studio",
+  "description": "Universal Image-to-PDF converter & editor with AI-powered OCR cleanup, page summarizing, translation, and signature/shapes digital canvas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

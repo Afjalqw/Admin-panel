@@ -1,0 +1,2 @@
+sed -i 's/val history = viewModel.historyList.collectAsState().value//g' app/src/main/java/com/example/ui/HomeDashboardScreen.kt
+sed -i 's/@Composable\nfun HomeDashboardScreen(viewModel: PDFViewModel, onNavigate: (Int) -> Unit, onAction: (String) -> Unit) {/@Composable\nfun HomeDashboardScreen(viewModel: PDFViewModel, onNavigate: (Int) -> Unit, onAction: (String) -> Unit) {\n    val history = viewModel.historyList.collectAsState().value/g' app/src/main/java/com/example/ui/HomeDashboardScreen.kt
